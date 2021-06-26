@@ -1,51 +1,51 @@
 [
   {
     "path": "/",
-    "component": "D:\\\\study\\\\LaGou\\\\MyCode\\\\part3\\\\3-3\\\\realworld-nuxtjs\\\\pages\\\\layout",
+    "component": "D:\\\\study\\\\LaGou\\\\MyCode\\\\part3\\\\3-3\\\\realworld-nuxtjs\\\\realWorld\\\\pages\\\\layout",
     "children": [
       {
         "path": "",
         "name": "home",
-        "component": "D:\\\\study\\\\LaGou\\\\MyCode\\\\part3\\\\3-3\\\\realworld-nuxtjs\\\\pages\\\\home",
-        "_name": "_7aa6f851"
+        "component": "D:\\\\study\\\\LaGou\\\\MyCode\\\\part3\\\\3-3\\\\realworld-nuxtjs\\\\realWorld\\\\pages\\\\home",
+        "_name": "_a53dacbe"
       },
       {
         "path": "/login",
         "name": "login",
-        "component": "D:\\\\study\\\\LaGou\\\\MyCode\\\\part3\\\\3-3\\\\realworld-nuxtjs\\\\pages\\\\login",
-        "_name": "_4b1f4b92"
+        "component": "D:\\\\study\\\\LaGou\\\\MyCode\\\\part3\\\\3-3\\\\realworld-nuxtjs\\\\realWorld\\\\pages\\\\login",
+        "_name": "_02075a32"
       },
       {
         "path": "/register",
         "name": "register",
-        "component": "D:\\\\study\\\\LaGou\\\\MyCode\\\\part3\\\\3-3\\\\realworld-nuxtjs\\\\pages\\\\login",
-        "_name": "_4b1f4b92"
+        "component": "D:\\\\study\\\\LaGou\\\\MyCode\\\\part3\\\\3-3\\\\realworld-nuxtjs\\\\realWorld\\\\pages\\\\login",
+        "_name": "_02075a32"
       },
       {
         "path": "/profile/:username",
         "name": "profile",
-        "component": "D:\\\\study\\\\LaGou\\\\MyCode\\\\part3\\\\3-3\\\\realworld-nuxtjs\\\\pages\\\\profile",
-        "_name": "_4e2d0e12"
+        "component": "D:\\\\study\\\\LaGou\\\\MyCode\\\\part3\\\\3-3\\\\realworld-nuxtjs\\\\realWorld\\\\pages\\\\profile",
+        "_name": "_0a5a05a7"
       },
       {
         "path": "/settings",
         "name": "settings",
-        "component": "D:\\\\study\\\\LaGou\\\\MyCode\\\\part3\\\\3-3\\\\realworld-nuxtjs\\\\pages\\\\settings",
-        "_name": "_54f492d6"
+        "component": "D:\\\\study\\\\LaGou\\\\MyCode\\\\part3\\\\3-3\\\\realworld-nuxtjs\\\\realWorld\\\\pages\\\\settings",
+        "_name": "_5bb28036"
       },
       {
         "path": "/editor",
         "name": "editor",
-        "component": "D:\\\\study\\\\LaGou\\\\MyCode\\\\part3\\\\3-3\\\\realworld-nuxtjs\\\\pages\\\\editor",
-        "_name": "_670f105f"
+        "component": "D:\\\\study\\\\LaGou\\\\MyCode\\\\part3\\\\3-3\\\\realworld-nuxtjs\\\\realWorld\\\\pages\\\\editor",
+        "_name": "_57fba4a2"
       },
       {
         "path": "/article/:slug",
         "name": "article",
-        "component": "D:\\\\study\\\\LaGou\\\\MyCode\\\\part3\\\\3-3\\\\realworld-nuxtjs\\\\pages\\\\article",
-        "_name": "_80988778"
+        "component": "D:\\\\study\\\\LaGou\\\\MyCode\\\\part3\\\\3-3\\\\realworld-nuxtjs\\\\realWorld\\\\pages\\\\article",
+        "_name": "_1db76e18"
       }
     ],
-    "_name": "_72ddea1c"
+    "_name": "_405df128"
   }
 ]
