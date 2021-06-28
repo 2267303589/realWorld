@@ -16,7 +16,7 @@ jobs:
     # 打包构建
     - name: Build
       uses: actions/setup-node@master
-    - run: npm install -f
+    - run: npm install
     - run: npm run build
     - run: tar -zcvf release.tgz .nuxt static nuxt.config.js package.json package-lock.json pm2.config.json
 
@@ -54,8 +54,7 @@ jobs:
         port: ${{ secrets.PORT }}
         script: |
           cd /root/realworld-nuxtjs
-          rm -rf *
-          curl -LJO https://github.com/2267303589/realworld-nuxtjs/releases/latest/download/release.tgz -O release.tgz
+          wget https://github.com/2267303589/realworld-nuxtjs/releases/latest/download/release.tgz -O release.tgz
           tar zxvf release.tgz
-          npm install --production -f
+          npm install --production
           pm2 reload pm2.config.json
